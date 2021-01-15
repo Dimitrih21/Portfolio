@@ -1,0 +1,23 @@
+# Plan
+
+1. Liste des compétences du référentiel qui sont couvertes par le projet
+2. Résumé du projet en français d’une longueur d’environ 20 lignes soit 200 à 250 mots, ou environ 1200 caractères espaces non compris
+3. Cahier des charges, expression des besoins, ou spécifications fonctionnelles du projet
+4. Spécifications techniques du projet, élaborées par le candidat, y compris pour la sécurité et le web mobile
+5. Réalisations du candidat comportant les extraits de code les plus significatifs et en les argumentant, y compris pour la sécurité et le web mobile
+6. Présentation du jeu d’essai élaboré par le candidat de la fonctionnalité la plus représentative (données en entrée, données attendues, données
+obtenues)
+7. Description de la veille, effectuée par le candidat durant le projet, sur les vulnérabilités de sécurité
+8. Description d’une situation de travail ayant nécessité une1. Liste des compétences du référentiel qui sont couvertes par le projet
+2. Résumé du projet en français d’une longueur d’environ 20 lignes soit 200 à 250 mots, ou environ 1200 caractères espaces non compris
+3. Cahier des charges, expression des besoins, ou spécifications fonctionnelles du projet
+4. Spécifications techniques du projet, élaborées par le candidat, y compris pour la sécurité et le web mobile
+5. Réalisations du candidat comportant les extraits de code les plus significatifs et en les argumentant, y compris pour la sécurité et le web mobile
+6. Présentation du jeu d’essai élaboré par le candidat de la fonctionnalité la plus représentative (données en entrée, données attendues, données
+obtenues)
+7. Description de la veille, effectuée par le candidat durant le projet, sur les vulnérabilités de sécurité
+8. Description d’une situation de travail ayant nécessité une recherche, effectuée par le candidat durant le projet, à partir de site anglophone
+9. Extrait du site anglophone, utilisé dans le cadre de la recherche décrite précédemment, accompagné de la traduction en français effectuée par le
+candidat sans traducteur automatique (environ 750 signes). recherche, effectuée par le candidat durant le projet, à partir de site anglophone
+9. Extrait du site anglophone, utilisé dans le cadre de la recherche décrite précédemment, accompagné de la traduction en français effectuée par le
+candidat sans traducteur automatique (environ 750 signes).

@@ -1,145 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <div class="portfolio-title">
-        <div id="logo">
-         <span id="name" class="color-blue">DIMITRI HOERTH</span> 
-        <br>
-            <span id="portfolio" class="color-grey">PORTFOLIO</span>
-        </div>
-    </div>
-    <div class="container-background">
-        <div class="container p-5">
-            <div class="row align-items-start">
-              <div class="col center-cards">
-                <div class="card mb-3" style="width: 18rem;">
-                    <img src="img/flappy-dragonball.png" class="card-img-top card-img-full" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary"> <div id="balanceIcon" class="icon fa"></div> Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col center-cards">
-                <div class="card mb-3" style="width: 18rem;">
-                    <img src="img/Limitless.PNG" class="card-img-top card-img-full" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="col center-cards">
-                <div class="card mb-3" style="width: 18rem;">
-                    <img src="img/tdou.png" class="card-img-top card-img-full" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-    
-            <div class="row align-items-start">
-                <div class="col center-cards">
-                  <div class="card mb-3" style="width: 18rem;">
-                      <img src="img/flappy-dragonball.png" class="card-img-top card-img-full" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="col center-cards">
-                  <div class="card mb-3" style="width: 18rem;">
-                      <img src="img/Limitless.PNG" class="card-img-top card-img-full" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="col center-cards">
-                  <div class="card mb-3" style="width: 18rem;">
-                      <img src="img/tdou.png" class="card-img-top card-img-full" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            
-          </div>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimitri HOERTH | Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="https://dimitrih.promo-42.codeur.online/tennis.png" />
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="home">
+  <button id="scrollTop" title="Go to top">&#8593;</button>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link m-2" href="#home">Home</a>
+          <a class="nav-link m-2" href="#timeline">Timeline</a>
+          <a class="nav-link m-2" href="#projects">Projects</a>
+          <!-- <a class="nav-link m-2" href="#word-cloud">Word Cloud</a> -->
+          <a class="nav-link m-2" href="cv.pdf" download>CV</a>
+        </div>
+      </div>
     </div>
+  </nav>
+  <div class="portfolio-title">
+
+    <div id="logo">
+      <span id="name" class="color-blue">DIMITRI HOERTH</span>
+      <br>
+      <span id="portfolio" class="color-grey">DESIGNER WEB</span>
+    </div>
+
+  </div>
+
+  <div id="timeline" class="container-fluid p-5 container-cv">
+    <div class="timeline">
+      <div class="container-timeline left-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2019</h2>
+          <p>Formation Access Code School
+            <br>
+            Préparation du titre professionnel Designer Web
+            RNCP Niveau 5 (Bac +2)
+          </p>
+        </div>
+      </div>
+      <div class="container-timeline right-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2017-2018</h2>
+          <p>Assistant d'éducation
+            <br>
+            Surveillance des lycéens au Lycée Désiré Nisard à Châtillon sur Seine
+          </p>
+        </div>
+      </div>
+      <div class="container-timeline left-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2015-2017</h2>
+          <p>Initiateur de tennis
+            <br>
+            Entraînement de tennis adultes et enfants à Laignes
+          </p>
+        </div>
+      </div>
+      <div class="container-timeline right-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2014</h2>
+          <p>Agent de production
+            <br>
+            Tri du courrier, préparation des tournées.Travail de nuit. Plateforme Industriel du Courrier Dijon-Longvic
+          </p>
+        </div>
+      </div>
+      <div class="container-timeline left-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2012-2014</h2>
+          <p>Equipier de vente / Hôte de caisse / Vendeur
+            <br>
+            Conseil des clients, mise en rayon (Toys’rus, GO Sport)
+          </p>
+        </div>
+      </div>
+      <div class="container-timeline right-timeline">
+        <div class="content-timeline">
+          <h2 class="timeline-date">2008</h2>
+          <p>Initiateur de tennis
+            <br>
+            Découverte du tennis pour les enfants à Auxerre
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="projects" class="container-background">
 
     <div class="container p-5">
-        <div class="timeline">
-            <div class="container-timeline left-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2017</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+
+      <div class="row align-items-start">
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mb-4" style="width: 16rem;">
+            <img src="img/green-it.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Green-it</h5>
+              <h4 class="card-title"><img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:28px; margin-top:-8px;"> <i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i
+                  class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Adaptation aux dimensions mobile d'une maquette au format PSD fournie aux dimensions
+                desktop puis intégration responsive</p>
+              <a href="https://dimitrih.promo-42.codeur.online/green-it/" class="btn btn-primary"><i
+                  class="fas fa-link"></i></a>
+              <a href="https://dimitrih.promo-42.codeur.online/green-it/green-it_mobile.psd" class="btn btn-primary"><i
+                  class="far fa-image"></i></a>
+              <a href="https://github.com/Dimitrih21/green-it" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </div>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mb-4" style="width: 16rem;">
+            <img src="img/aurora.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">The Aurora Project</h5>
+              <h4 class="card-title"><img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:28px; margin-top:-8px;"> <i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Développement d'un thème WordPress sur mesure pour un site web de sensibilisation aux problématiques d'inégalités professionnelles femmes / hommes.</p>
+                <a href="https://dimitrih.promo-42.codeur.online/the_aurora_project/" class="btn btn-primary"><i
+                    class="fas fa-link"></i></a>
+                <a href="https://dimitrih.promo-42.codeur.online/portfolio/img/aurora-full.png" class="btn btn-primary"><i
+                    class="far fa-image"></i></a>
+                <a href="https://github.com/Dimitrih21/The_Aurora_Project" class="btn btn-primary"><i class="fab fa-github"></i></a>
+                <a href="https://dimitrih.promo-42.codeur.online/the_aurora_project/dossier_de_conception.pdf" class="btn btn-primary"><i class="fas fa-file-signature"></i></a>
             </div>
-            <div class="container-timeline right-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2016</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mb-4" style="width: 16rem;">
+            <img src="img/startup.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Start-Up Nation</h5>
+              <h4 class="card-title"><img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:28px; margin-top:-8px;"> <i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Adaptation aux dimensions desktop d'une maquette au format PSD fournie aux dimensions
+                mobile, puis intégration responsive.</p>
+                <a href="https://dimitrih.promo-42.codeur.online/startup-nation" class="btn btn-primary"><i
+                    class="fas fa-link"></i></a>
+                <a href="https://dimitrih.promo-42.codeur.online/startup-nation/startup_desktop.psd" class="btn btn-primary"><i
+                    class="far fa-image"></i></a>
+                <a href="https://github.com/Dimitrih21/startup-nation" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row align-items-start">
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/limitless.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Limitless</h5>
+              <h4 class="card-title"><img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:28px; margin-top:-8px;"> <i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i
+                  class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Projet d'intégration en HTML/CSS/JS réalisé dans le cadre de l'ACS sur la base d'une maquette libre de droits réalisée par un graphiste professionnel.</p>
+                <a href="https://dimitrih.promo-42.codeur.online/limitless/" class="btn btn-primary"><i
+                  class="fas fa-link"></i></a>
+                <a href="https://github.com/Dimitrih21/projet_Limitless" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </div>
-            <div class="container-timeline left-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2015</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/miam.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Miam !</h5>
+              <img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:32px">
+              <p class="card-text">Création de maquette sous Photoshop avec charte graphique imposée sur le thème de la boulangerie.</p>
+              <a href="https://dimitrih.promo-42.codeur.online/boulangerie/boulangerie.psd" class="btn btn-primary"><i
+                class="far fa-image"></i></a>
             </div>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/multiplication.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tables de multiplication</h5>
+              <h4 class="card-title"><i class="fab fa-php"></i>&nbsp;<i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i
+                  class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Projet développé en PHP avec Célia Bellod dans le cadre de ma formation Access Code School. </p>
+                <a href="https://dimitrih.promo-42.codeur.online/tables-de-multiplication/" class="btn btn-primary"><i
+                  class="fas fa-link"></i></a>
+                <a href="https://github.com/Dimitrih21/table-de-multiplication" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </div>
-            <div class="container-timeline right-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2012</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="row align-items-start">
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/truites.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Aux Truites Bleues</h5>
+              <img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:32px">
+              <p class="card-text">Travail collaboratif sur une maquette avec Photoshop pour la refonte d'un site Web de gîte.</p>
+              <a href="https://dimitrih.promo-42.codeur.online/aux-truites-bleues/services.psd" class="btn btn-primary"><i
+                class="far fa-image"></i></a>
             </div>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/tdou.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tdou</h5>
+              <h4 class="card-title"><img src="img/adobe-photoshop.png" alt="icone adobe photoshop" style="width:28px; margin-top:-8px;"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i
+                  class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Page web intégrée en HTML / CSS sur la base d'une maquette au format PSD conçue par une collaboratrice durant ma formation Access Code School.</p>
+              <a href="https://dimitrih.promo-42.codeur.online/tdou/" class="btn btn-primary"><i
+                class="fas fa-link"></i></a>
+              <a href="https://github.com/Dimitrih21/Tdou-listing" class="btn btn-primary"><i class="fab fa-github"></i></a>
             </div>
-            <div class="container-timeline left-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2011</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+          </div>
+        </div>
+
+        <div id="bootstrap-cards" class="col center-cards">
+          <div class="card mt-4" style="width: 16rem;">
+            <img src="img/flappy-dragonball.png" class="card-img-top card-img-full" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">FlappyBird-Like</h5>
+              <h4 class="card-title"><i class="fab fa-js-square"></i>&nbsp;<i class="fab fa-html5"></i>&nbsp;<i
+                  class="fab fa-css3-alt"></i></h4>
+              <p class="card-text">Un « FlappyBird Like » développé en JavaScript sur la base d'un tutoriel dans le cadre de ma formation Access Code School.</p>
+              <a href="https://dimitrih.promo-42.codeur.online/flappybird/" class="btn btn-primary"><i
+                class="fas fa-link"></i></a>
+                <a href="https://github.com/Dimitrih21/flappybird/" class="btn btn-primary"><i class="fab fa-github"></i></a>
+              </div>
             </div>
-            </div>
-            <div class="container-timeline right-timeline">
-            <div class="content-timeline">
-            <h2 class="timeline-date">2007</h2>
-            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-            </div>
-            </div>
+          </div>
+
+      </div>
 
     </div>
-<div id="container-cloud">
-    <div id="word-cloud">
+
+  </div>
 
 
-    </div>
-</div>
+  <!-- <div id="word-cloud"></div> -->
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
-    <script src="
-https://d3js.org/d3.v6.min.js
-"></script>
-    <script src="main.js"></script>
+  <footer>
+
+    <div id="footer-text">
+      <a href="#home"> Dimitri HOERTH</a> |<a href="#home"> Mentions Légales</a></div>
+
+  </footer>
+
+
+  <script src="main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+    integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD"
+    crossorigin="anonymous"></script>
+  <!-- <script src="wordCloud.js"></script> -->
+
 </body>
+
 </html>

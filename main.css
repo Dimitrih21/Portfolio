@@ -12,6 +12,11 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 body {
     padding: 0;
     margin: 0;
@@ -24,12 +29,25 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(#FFF,#FFF,#4472C4);
+    background: linear-gradient(#FFF, #FFF, #FFF, #90ABDC);
    /* background: radial-gradient(#FFF,#4472C4,#4472C4);*/
 }
 
+.container-cv{
+    background: linear-gradient(#90ABDC,#90ABDC, #FFF, #FFF, #FFF, #FFF,#90ABDC, #90ABDC);
+
+}
+
+#word-cloud{
+  /* background: linear-gradient(#FFF, #FFF, #FFF, #4472C4);  */
+}
+
+#bootstrap-cards{
+    height: 512px;
+}
+
 .container-background {
-    background: linear-gradient(#4472C4,#FFF);
+    background: linear-gradient(#90ABDC,#FFF);
 }
 
 .color-blue {
@@ -44,14 +62,14 @@ line-height: 0.6;
 .color-grey {
 font-family: "inconsolata";
 color: #ADABAF;
-font-size: 8rem;
+font-size: 5.7rem;
 padding: 0;
 margin-top: 0;
 line-height: 0.6;
 }
 
 .card-img-full {
-    height: 24vh;
+    height: 160px;
     object-fit: cover; /* la propriété CSS object-fit permet d’indiquer comment un contenu doit s’adapter à son parent en fonction de sa largeur et de sa hauteur
     cover : l’image est dimensionnée de façon à remplir toute la zone d’affichage sans toucher au ratio de l’image. Et au moins une des dimensions (largeur ou hauteur) est conforme à la dimension du parent. Tout ce qui dépasse n’est pas affiché. */
 }
@@ -76,6 +94,8 @@ line-height: 0.6;
         position: relative;
         max-width: 1200px;
         margin: 0 auto;
+        padding-top: 180px;
+        padding-bottom: 180px;
         }
         
         /* The actual timeline (the vertical ruler) */
@@ -83,9 +103,9 @@ line-height: 0.6;
         content: '';
         position: absolute;
         width: 6px;
-        background-color: #ADABAF;
-        top: 0;
-        bottom: 0;
+        background: linear-gradient( #B8CAE9,#90ABDC, #90ABDC, #B8CAE9);
+        top: 140px;
+        bottom: 220px;
         left: 50%;
         margin-left: -3px;
         }
@@ -202,3 +222,88 @@ line-height: 0.6;
         left: 0%;
         }
         }
+
+
+
+
+
+        #word-cloud{
+            height: 100vh;
+            width: 100vw;
+            margin: 0 auto;
+        }
+        
+
+        #navbar {
+            overflow: hidden;
+            position: fixed; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */    
+            z-index: 5;
+            background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.1),  rgba(255,255,255,0.7),  rgba(255,255,255,0.9), rgba(255,255,255,0.7), rgba(255, 255, 255, 0.1), rgba(255,255,255,0) );
+          }
+
+          .navbar-nav{
+              text-align: center;
+          }
+
+          .collapse {
+              justify-content: center;
+          }
+
+
+          footer{
+              height: 20vh;
+              background: linear-gradient( #FFF, #90ABDC,  #4472C4);
+              color: white;
+              position: relative;
+          }
+
+          #footer-text{
+              width: 100%;
+              text-align: center;
+              position: absolute;
+              bottom: 8px;
+          }
+
+          #footer-text a, #footer-text a:hover  {
+              color:white;
+              text-decoration: none;
+          }
+
+
+       
+          #scrollTop {
+            display: none;
+            position: fixed;
+            height: 48px;
+            width:48px;
+            bottom: 24px;
+            right: 32px;
+            z-index: 99;
+            font-size: 1.2rem;
+            border: none;
+            outline: none;
+            background-color: #4472C4;
+            color: white;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 4px;
+          }
+          
+          #scrollTop:hover {
+            background-color:  #90ABDC;
+          }
+
+
+
+          .btn-primary{
+            background-color: #4472C4;
+            border-color: #FFF!important;
+          }
+
+          .btn-primary:hover{
+            background-color:  #90ABDC;
+            border-color: #FFF!important;
+          }
+          
